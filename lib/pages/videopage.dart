@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 class VideoPage extends StatelessWidget {
   String url = "https://youtube.googleapis.com/youtube/v3/search";
-  String API_KEY = "AIzaSyDm9KsYMCueD1DFKFWyZjlyHMM2FLnqSaE";
+  String API_KEY = "";
   String channelID = "UCuMAjEaSMj7q7YLf0xW1MjQ";
   late ListVideo listVideo;
 
